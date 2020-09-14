@@ -32,4 +32,4 @@ jobs:
       - name: Gradle clean build
         uses: eskatos/gradle-command-action@v1
         with:
-          arguments: "clean test_runner:build"
+          arguments: "clean build"

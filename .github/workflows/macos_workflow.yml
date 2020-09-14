@@ -34,7 +34,7 @@ jobs:
       uses: eskatos/gradle-command-action@v1
       with:
         # Gradle command line arguments, see gradle --help
-        arguments: "test_runner:check"
+        arguments: "check"
         
     - name: Codecov
       uses: codecov/codecov-action@v1.0.7
